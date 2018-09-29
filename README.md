@@ -12,6 +12,11 @@ Steps for creating virtual environment:
 
 
 ....
+Instructions:
+Add APPNAME to INSTALLED_APPS in settings.py
 1. python manage.py showmigrations
-2. python manage.py makemigrations
+2. python manage.py makemigrations ....add any column to table
 3. python manage.py migrate
+4. python manage.py shell
+	a. import APPNAME.models import MODELNAME
+	b. 
